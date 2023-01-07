@@ -3,10 +3,11 @@
     position: absolute;
     background-image: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
-    align-items: center;
+
     background-size: 100%;
     justify-content: center;
     margin-bottom: 100px;
+    height: 900px;
 }
 
 .banner-title {
@@ -53,25 +54,57 @@
 main{
     position: absolute;
     height: 723.3px;
-    left: 206px;
+    left: 500px;
     top: 949px;
 }
 
 .section-title{
    
-    text-align: right;
-   
-    
+   margin-right: 850px;
+   display: flex;
+   margin-bottom: 58px; 
 }
 .section-description{
-   text-align: right;
-   margin-right: 720px;
-  
- 
+   margin-right: 800px;
 }
-.section-point{
-    text-align: right;
-    
-    
+section{
+    align-items: center;
+    display: flex;
 }
 
+.heading{
+    text-align: center;
+}
+
+.section-title{
+    text-align: center;
+    margin-right: 800px;
+    
+}
+.my-plans{
+    display: flex;
+    flex-direction: column;
+}
+.my-plans-box{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-right: 800px;
+    text-align: center;
+    
+}
+.sub-info{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    margin-top: 124px;
+    margin-bottom: 130px;
+}
+.main-info-title{
+    margin-left: 66px;
+    margin-right: 1300px;
+}
+.call-btn{
+    background: wheat;
+    color: red;
+    margin-left: 66px;
+}
